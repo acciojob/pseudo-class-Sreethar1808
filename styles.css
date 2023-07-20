@@ -1,11 +1,14 @@
 /*  your css code here. If applicable */
 .align::before{
-	content:"Before Element ";
 	color:rgb(255,0,0);
+	content:"Before Element ";
+	
+	
 	font-size:20px
 }
 .align::after{
-	content:" After Element";
 	color:rgb(255,0,0);
+	content:" After Element";
+	
 	font-size:20px
 }
